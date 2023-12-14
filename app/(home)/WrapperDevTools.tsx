@@ -16,56 +16,56 @@ import { BiLogoPostgresql, BiLogoFigma } from "react-icons/bi";
 const WrapperDevTools = () => {
   return (
     <div className="mt-24">
-      <div className=" text-center font-commissioner font-bold mt-24 mb-7 text-xl">
+      <div className=" text-center font-dm-mono font-medium  mt-24 mb-7 text-xl">
         Development Tools
       </div>
       <div className="flex justify-center gap-28">
         <ul className="flex flex-col gap-3">
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <SiTypescript />
-            TypeScript
+            <span className="text-[#707070]">TypeScript</span>
           </li>
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <FaGolang />
-            GoLang
+            <span className="text-[#707070]">GoLang</span>
           </li>
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <SiCplusplus />
-            C++
+            <span className="text-[#707070]">C++</span>
           </li>
         </ul>
         <ul className="flex flex-col gap-3">
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <SiRedis />
-            Redis
+            <span className="text-[#707070]">Redis</span>
           </li>
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <BiLogoPostgresql />
-            PostgreSQL
+            <span className="text-[#707070]">PostgreSQL</span>
           </li>
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <SiMongodb />
-            MongoDB
+            <span className="text-[#707070]">MongoDB</span>
           </li>
         </ul>
         <ul className="flex flex-col gap-3">
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <SiNginx />
-            NginX
+            <span className="text-[#707070]">NginX</span>
           </li>
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <SiDocker />
-            Docker
+            <span className="text-[#707070]">Docker</span>
           </li>
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <FaUbuntu />
-            Ubuntu
+            <span className="text-[#707070]">Ubuntu</span>
           </li>
         </ul>
         <ul>
-          <li className="flex text-base items-center gap-2">
+          <li className="flex text-base items-center gap-2 ">
             <BiLogoFigma />
-            Figma
+            <span className="text-[#707070]">Figma</span>
           </li>
         </ul>
       </div>

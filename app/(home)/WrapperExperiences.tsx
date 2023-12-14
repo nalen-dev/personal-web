@@ -7,7 +7,7 @@ import { PiCertificateBold } from "react-icons/pi";
 const WrapperExperiences = () => {
   return (
     <div className="mt-[7rem]">
-      <div className=" font-commissioner font-bold text-center mt-24 mb-7 text-xl">
+      <div className=" font-dm-mono font-medium text-center mt-24 mb-7 text-xl">
         Education and Experiences
       </div>
       <div className="flex items-center justify-center gap-28  w-4/6 mx-auto">

@@ -20,7 +20,7 @@ const WrapperUser = () => {
           width={80}
         />
       </div>
-      <div className="mt-5 font-commissioner text-2xl text-center">
+      <div className="mt-5 font-commissioner text-[2.1rem] text-center">
         Nalendra Praja Manggala
       </div>
       <div className="text-center font-light mt-1 text-sm text-[#A0A0A0]">
@@ -31,7 +31,7 @@ const WrapperUser = () => {
         <FaLinkedin size={24} />
       </div>
       <div className="text-center mt-5">
-        <div className="font-dm-mono font-normal mb-3 text-[13px] text-[#707070]">
+        <div className="font-dm-mono font-light mb-3 text-[13px] text-[#707070]">
           Bali, Indonesia
         </div>
         <Button variant={"outline"}> Contact Me </Button>
