@@ -18,15 +18,14 @@ const ContactMeDialog = () => {
     <div>
       <Dialog>
         <DialogTrigger>
-          {" "}
           <Button variant={"outline"}> Contact Me </Button>
         </DialogTrigger>
         <DialogContent>
           <DialogHeader>
             <DialogTitle>Oops!!</DialogTitle>
             <DialogDescription>
-              This feature is currently taking a little break. Don't worry,
-              it'll be back in action soon
+              This feature is currently taking a little break. No need to worry,
+              it will be back in action soon
             </DialogDescription>
           </DialogHeader>
         </DialogContent>
