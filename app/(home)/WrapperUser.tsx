@@ -6,7 +6,7 @@ import imgProfile from "../../rsc/img/nalendra_profile.jpeg";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa6";
 
-import { Button } from "@/components/ui/button";
+import ContactMeDialog from "@/components/ContactMeDialog";
 
 const WrapperUser = () => {
   return (
@@ -36,7 +36,7 @@ const WrapperUser = () => {
         <div className="font-dm-mono font-light mb-3 text-[13px] text-[#707070]">
           Bali, Indonesia
         </div>
-        <Button variant={"outline"}> Contact Me </Button>
+        <ContactMeDialog />
       </div>
     </div>
   );
