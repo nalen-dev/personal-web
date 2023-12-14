@@ -24,10 +24,12 @@ const NavHeader = ({ path }: NavHeader) => {
       </div>
       <div className="text-base font-commissioner text-[#868686] max-md:hidden">
         <ul className="flex gap-4">
-          <li>
-            <a href="/blog">Blog</a>
+          <li className={cn(path == "/blogs" ? "text-black" : "")}>
+            <a href="/blogs">Blog</a>
           </li>
-          <li>Components</li>
+          <li className={cn(path == "/components" ? "text-black" : "")}>
+            <a href="/componenets">Components</a>
+          </li>
         </ul>
       </div>
     </div>
