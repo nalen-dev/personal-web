@@ -11,7 +11,9 @@ import { Button } from "@/components/ui/button";
 const WrapperUser = () => {
   return (
     <div>
-      {" "}
+      <div className="relative bottom-4 text-center font-dm-mono font-light text-[13px] text-[#707070]">
+        Hello, Welcome!
+      </div>
       <div className="flex text-center justify-center mt-[50px]">
         <Image
           className="rounded-full"

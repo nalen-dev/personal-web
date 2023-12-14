@@ -1,14 +1,32 @@
+"use client";
+
 import React from "react";
 
-const NavHeader = () => {
+import { cn } from "@/lib/utils";
+
+import "./navigation.css";
+
+interface NavHeader {
+  path: string;
+}
+
+const NavHeader = ({ path }: NavHeader) => {
   return (
-    <div className="relative w-3/4 text-center mt-[50px] mx-auto">
-      <div className="font-dm-mono font-light text-[13px] text-[#707070]">
-        Hello, Welcome!
+    <div className="flex items-end justify-between px-40 mt-[50px] mx-auto">
+      <div
+        className={cn(
+          path == "/"
+            ? "invisible"
+            : "text-base font-commissioner text-[#868686]"
+        )}
+      >
+        <a href="/">Back</a>
       </div>
-      <div className="absolute right-0 bottom-0 text-base font-commissioner text-[#868686]">
+      <div className="text-base font-commissioner text-[#868686] max-md:hidden">
         <ul className="flex gap-4">
-          <li>Blog</li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
           <li>Components</li>
         </ul>
       </div>

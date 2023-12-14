@@ -7,7 +7,7 @@ import WrapperExperiences from "./WrapperExperiences";
 export default function Home() {
   return (
     <div className="">
-      <NavHeader />
+      <NavHeader path="/" />
       <WrapperUser />
       <WrapperProject />
       <WrapperDevTools />

@@ -10,7 +10,7 @@ const WrapperExperiences = () => {
       <div className=" font-dm-mono font-medium text-center mt-24 mb-7 text-xl">
         Education and Experiences
       </div>
-      <div className="flex items-center justify-center gap-28  w-4/6 mx-auto">
+      <div className="flex flex-wrap items-center justify-center gap-28  w-4/6 mx-auto">
         <div className="flex-col flex gap-4">
           <div className="bg-[#1F2937] text-white py-4 pl-10 pr-4 w-[200px] rounded-lg relative">
             <div className="font-commissioner text-base">

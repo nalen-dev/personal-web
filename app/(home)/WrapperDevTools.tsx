@@ -19,7 +19,7 @@ const WrapperDevTools = () => {
       <div className=" text-center font-dm-mono font-medium  mt-24 mb-7 text-xl">
         Development Tools
       </div>
-      <div className="flex justify-center gap-28">
+      <div className="flex flex-wrap justify-center gap-x-28 gap-y-10">
         <ul className="flex flex-col gap-3">
           <li className="flex text-base items-center gap-2 ">
             <SiTypescript />
